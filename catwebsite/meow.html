@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cat Website</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="login-box">
+		<h1>Login</h1>
+		<form>
+			<label for="username">Username:</label>
+			<input type="text" id="username" name="username"><br><br>
+			<label for="password">Password:</label>
+			<input type="password" id="password" name="password"><br><br>
+			<input type="button" value="Login" onclick="validateLogin()">
+		</form>
+	</div>
+
+	<div id="cat-page" class="hidden">
+		<h1>Cat Page</h1>
+		<img src="cat.gif" alt="Dancing Cat">
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
